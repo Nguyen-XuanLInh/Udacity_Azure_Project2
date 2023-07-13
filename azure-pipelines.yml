@@ -83,7 +83,7 @@ stages:
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : azure-devops-project2-phunghtt'
+            displayName: 'Deploy Azure Web App : udacity-azure-project2'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
