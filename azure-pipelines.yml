@@ -13,17 +13,18 @@ variables:
   # Web app name
   webAppName: 'udacity-azure-project2'
 
+  poolName: 'AgentPool'
   # Agent VM image name
-  vmImageName: 'ubuntu-latest'
+  vmImageName: 'MyVM'
 
   # Environment name
-  environmentName: 'udacity-azure-project2'
+  environmentName: 'LinhNTX'
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
-  pythonVersion: '3.7'
+  pythonVersion: '3.8.10'
 
 stages:
 - stage: Build
@@ -31,13 +32,14 @@ stages:
   jobs:
   - job: BuildJob
     pool:
+      name: $(poolName)
       vmImage: $(vmImageName)
     steps:
     - task: UsePythonVersion@0
       inputs:
         versionSpec: '$(pythonVersion)'
       displayName: 'Use Python $(pythonVersion)'
-    
+
     - script: |
         python -m venv antenv
         source antenv/bin/activate
@@ -46,15 +48,7 @@ stages:
         pip install -r requirements.txt
       workingDirectory: $(projectRoot)
       displayName: "Install requirements"
-    
-    - script: |
-        python -m venv antenv
-        source antenv/bin/activate
-        make install
-        make lint
-      workingDirectory: $(projectRoot)
-      displayName: "Run Lint test"
-      
+
     - task: ArchiveFiles@2
       displayName: 'Archive files'
       inputs:
@@ -75,20 +69,21 @@ stages:
   jobs:
   - deployment: DeploymentJob
     pool:
+      name: $(poolName)
       vmImage: $(vmImageName)
     environment: $(environmentName)
     strategy:
       runOnce:
         deploy:
           steps:
-          
+
           - task: UsePythonVersion@0
             inputs:
               versionSpec: '$(pythonVersion)'
             displayName: 'Use Python version'
 
           - task: AzureWebApp@1
-            displayName: 'Deploy Azure Web App : uda-azdevops-p2'
+            displayName: 'Deploy Azure Web App : azure-devops-project2-phunghtt'
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
