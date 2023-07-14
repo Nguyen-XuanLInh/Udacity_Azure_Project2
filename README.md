@@ -7,10 +7,10 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 
 
 * A link to a [Trello board](https://trello.com/b/AkYzyi7B/azureproject2) for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A link to a spreadsheet that includes the original and final project plan
 
 ## Instructions 
-* Architectural Diagram (Shows how key parts of the system work)>
+* Architectural Diagram 
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
