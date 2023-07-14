@@ -18,7 +18,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 * Project cloned into Azure Cloud Shell
   ![gitClone](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/gitClone.jpg)
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
-
+  ![makeAll](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/makeAll.jpg)
 * Output of a test run
 
 * Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
