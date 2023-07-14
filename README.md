@@ -11,7 +11,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 
 ## Instructions 
 * Architectural Diagram
- ![diagram](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/diagram.pnj)
+ ![diagram](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/diagram.png)
 
 * Project running on Azure App Service
 
