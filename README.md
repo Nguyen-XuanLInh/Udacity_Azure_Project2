@@ -1,9 +1,10 @@
 # Overview
-
-<TODO: complete this with an overview of your project>
-
+Demo:
+* Deploy the app in Azure CloudShell
+* Deploy the app as a web server using Azure App Service
+ 
 ## Project Plan
-<TODO: Project Plan
+
 
 * A link to a [Trello board](https://trello.com/b/AkYzyi7B/azureproject2) for the project
 * A link to a spreadsheet that includes the original and final project plan>
