@@ -16,7 +16,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 * Project running on Azure App Service
 
 * Project cloned into Azure Cloud Shell
-
+  ![git clone] (https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/gitClone.jpg)
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
 
 * Output of a test run
