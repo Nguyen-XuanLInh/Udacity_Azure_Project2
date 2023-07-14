@@ -5,7 +5,7 @@
 ## Project Plan
 <TODO: Project Plan
 
-* A link to a Trello board for the project
+* A link to a [Trello board](https://trello.com/b/AkYzyi7B/azureproject2) for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
 ## Instructions
