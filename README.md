@@ -25,7 +25,8 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
-* Successful prediction from deployed flask app in Azure Cloud Shell.  [Use this file as a template for the deployed prediction](https://github.com/udacity/nd082-Azure-Cloud-DevOps-Starter-Code/blob/master/C2-AgileDevelopmentwithAzure/project/starter_files/flask-sklearn/make_predict_azure_app.sh).
+* Successful prediction from deployed flask app in Azure Cloud Shell.
+  
 The output should look similar to this:
 
 ```bash
@@ -44,6 +45,6 @@ Port: 443
 
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+[Click here: Link Demo Youtube](9https://youtu.be/v3f3T6-ZQXg)
 
 
