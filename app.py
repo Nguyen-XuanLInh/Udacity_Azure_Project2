@@ -23,18 +23,19 @@ def home():
     html = "<h3>Sklearn Prediction Home LinhNTX</h3>"
     return html.format(format)
 
-# TO DO:  Log out the prediction value
+# TO DO: Log out the prediction value
 @app.route("/predict", methods=['POST'])
 def predict():
     # Performs an sklearn prediction
     try:
-        # Load pretrained model as clf. Try any one model. 
-        # clf = joblib.load("./Housing_price_model/LinearRegression.joblib")
-        # clf = joblib.load("./Housing_price_model/StochasticGradientDescent.joblib")
         clf = joblib.load("./Housing_price_model/GradientBoostingRegressor.joblib")
-    except:
-        LOG.info("JSON payload: %s json_payload")
-        return "Model not loaded"
+    except OSError as e:
+        if e.errno == 2:  # errno 2 indicates FileNotFoundError
+            LOG.info("JSON payload: %s json_payload")
+            return "Model file not found"
+        else:
+            LOG.info("JSON payload: %s json_payload")
+            return "Error loading model file"
 
     json_payload = request.json
     LOG.info("JSON payload: %s json_payload")
