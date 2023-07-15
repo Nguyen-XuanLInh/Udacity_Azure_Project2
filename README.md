@@ -26,8 +26,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 * Running Azure App Service from Azure Pipelines automatic deployment
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
-  
-
+  ![createApp](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/CreateApp.jpg)
 
 * Output of streamed log files from deployed application
   ![log1](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Log1.jpg)
@@ -37,7 +36,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
   ![Locust2](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Locust2.jpg)
 ## Enhancements
 
-<TODO: A short description of how to improve the project in the future>
+Creating more test case
 
 ## Demo 
 
