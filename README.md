@@ -35,8 +35,8 @@ Port: 443
 ```
 
 * Output of streamed log files from deployed application
-
-> 
+  ! [log1](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Log1.jpg)
+  ! [log2](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Log2.jpg)
 
 ## Enhancements
 
