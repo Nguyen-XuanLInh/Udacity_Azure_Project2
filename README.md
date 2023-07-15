@@ -19,26 +19,22 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
   ![gitClone](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/gitClone.jpg)
 * Passing tests that are displayed after running the `make all` command from the `Makefile`
   ![makeAll](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/makeAll.jpg)
-* Output of a test run
-
-* Successful deploy of the project in Azure Pipelines.  [Note the official documentation should be referred to and double checked as you setup CI/CD](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops).
+* Make change and test GitHub action
+  ![gitAction](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/gitAction.jpg)
+* Successful deploy of the project in Azure Pipelines. 
 
 * Running Azure App Service from Azure Pipelines automatic deployment
 
 * Successful prediction from deployed flask app in Azure Cloud Shell.
   
-The output should look similar to this:
 
-```bash
-udacity@Azure:~$ ./make_predict_azure_app.sh
-Port: 443
-{"prediction":[20.35373177134412]}
-```
 
 * Output of streamed log files from deployed application
   ![log1](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Log1.jpg)
   ![log2](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Log2.jpg)
-
+* Loat test
+   ![Locust1](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Locust.jpg)
+  ![Locust2](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Screenshots/Locust2.jpg)
 ## Enhancements
 
 <TODO: A short description of how to improve the project in the future>
