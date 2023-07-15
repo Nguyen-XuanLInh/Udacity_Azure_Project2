@@ -5,7 +5,7 @@ In this project, I will demo building a CI/CD Pipeline to Azure App Service:
  
 ## Project Plan
 * A link to a [Trello board](https://trello.com/b/AkYzyi7B/azureproject2) for the project
-* A link to a spreadsheet that includes the original and final project plan
+* A link to a [spreadsheet](https://github.com/Nguyen-XuanLInh/Udacity_Azure_Project2/blob/main/Schedule%20Product%20Plan%20.xlsx) that includes the original and final project plan
 
 ## Instructions 
 * Architectural Diagram
