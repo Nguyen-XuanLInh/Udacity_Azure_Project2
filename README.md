@@ -2,6 +2,7 @@
 In this project, I will demo building a CI/CD Pipeline to Azure App Service:
 * Deploy the app in Azure CloudShell
 * Deploy the app as a web server using Azure App Service
+ ## Badge
  
 ## Project Plan
 * A link to a [Trello board](https://trello.com/b/AkYzyi7B/azureproject2) for the project
